@@ -1,0 +1,17 @@
+- alokujemy od razu całą pamięć (-x%) na kaecie graficznej
+- w ramach node'a zapełniamy karty graficzne po kolei
+- pamięć równo podzielona na hash i wartości (te same trzymane razem)
+- serwer wysyła wiersz po wierszu po kolei
+- przy tworzeniu: stałe wymiary i ich wartości (czas też), oraz miary
+- miary jako inty
+- przy tworzeniu kostki timestamp startu
+- jak pamięci nie starczy error do serwera
+- czasy jako ms od rozpoczęcia eksperymentu
+- serwer odpytujący - osobny proces
+
+TO-DOs:
+- sprawdzić, czy liczenie hasha na longach dużo wolniejsze
+- wizualizacje i obsługa statusu node'ów po stronie serwera
+
+Problemy:
+- duże przedziały czasu łącznie z dużymi pozostałymi wymiarami przy dokładności ms
